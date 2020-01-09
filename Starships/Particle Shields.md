@@ -5,13 +5,15 @@ greatly reducing the strength of impacts against its hull.
 They have a capacity of power used to absorb impacts.
 If it runs out of power, it fails and the ship is left unprotected.
 
-Shields take more damage the closer the impact is to the center,
+Shields take more damage the closer the impact is to the sign at the center,
 thus it is important to have shields strategically placed.
 
-Shield class only affects radius, not strength or anything else. Higher shield classes have higher radii.
+Shield class only affects radius, not strength or anything else. Higher shield classes have higher radii. 
+Adding a larger shield to a smaller ship will not increce the strength of the shield, 
+it will only weaken it! 
 
 The radius means the distance from the shield exploding blocks can be for the shield to stop the impact.
-You can use //hsphere 95 <radius> to approximate it with stained glass on the creative server.
+You can use //hsphere 95 [radius] to approximate it with stained glass on the creative server.
 
 If you have multiple shields with the same name,
 their visual indicator is combined into one boss bar.
